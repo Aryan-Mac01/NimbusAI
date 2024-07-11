@@ -6,6 +6,8 @@ import home from './assests/assets/home.svg'
 import saved from './assests/assets/bookmark.svg'
 import rocket  from './assests/assets/rocket.svg'
 import sendBtn  from './assests/assets/send.svg'
+import userIcon from './assests/assets/user-lap (Custom).jpg'
+import imgLogo  from './assests/assets/nimbus.svg'
 
 function App() {
   return (
@@ -51,7 +53,13 @@ function App() {
       </div>
       <div className="main">
         <div className="chats">
-
+          <div className="chat">
+            <img src={userIcon} alt="" /><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, consectetur nesciunt? Dolor, et esse recusandae veniam consequatur non sunt eum distinctio a enim quibusdam, sint eos deserunt. Voluptatem, doloribus repellendus?</p>
+          </div>
+          
+          <div className="chat">
+            <img src={imgLogo} alt="" /><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, consectetur nesciunt? Dolor, et esse recusandae veniam consequatur non sunt eum distinctio a enim quibusdam, sint eos deserunt. Voluptatem, doloribus repellendus?</p>
+          </div>
         </div>
         <div className="chatFooter">
           <div className="inp">
