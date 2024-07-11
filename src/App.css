@@ -115,7 +115,27 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 6rem 10rem;
+    margin-bottom: 0;
 }
+
+.chats{
+    overflow: hidden;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+    height: calc(100vh - 17rem);
+}
+
+.chat{
+    margin: 1rem;
+    padding: 2rem 3rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+
 
 .chatFooter{
     margin-top: auto;
@@ -125,12 +145,18 @@ body{
     align-items: center;
 }
 
+.chatFooter>p{
+    margin: 2rem 0;
+}
+
 
 .inp{
     padding: 0.5rem;
     background: rgba(28, 30, 58, 1);
     display: flex;
     align-items: center;
+    border-radius: 0.5rem;
+    width: 90rem;
 }
 
 .inp>input{

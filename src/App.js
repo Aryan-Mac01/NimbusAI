@@ -65,6 +65,7 @@ function App() {
           <div className="inp">
             <input type="text" placeholder="Send a message" /><button className="send"><img src={sendBtn} alt="Send" /></button>
           </div>
+          <p>Information provided by NimbusAI might be inaccurate about people, places or factss</p>
         </div>
       </div>
     </div>
